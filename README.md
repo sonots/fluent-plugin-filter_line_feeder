@@ -28,7 +28,7 @@ See [example.conf](example.conf)
 ## Parameters
 
 * keys
-  * record keys to target
+  * record keys seperated by comma (,)
 
 ## ChangeLog
 
