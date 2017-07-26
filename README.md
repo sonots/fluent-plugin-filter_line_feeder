@@ -2,12 +2,12 @@
 
 [![Build Status](https://secure.travis-ci.org/sonots/fluent-plugin-filter_linefeeder.png?branch=master)](http://travis-ci.org/sonots/fluent-plugin-filter_linefeeder)
 
-A Fluentd filter plugin to convert '\n' to "\n" (line feed)
+A Fluentd filter plugin to convert `\\n` to `\n` (line feed)
 
 ## What to do
 
 I usually output rails application stacktrace logs with one line using my [oneline_log_formatter](https://github.com/sonots/oneline_log_formatter) so that I can easily collect logs.
-This plugin recovers its '\n' strings into "\n" (line feed)
+This plugin recovers its `\\n` strings into `\n` (line feed)
 
 ## Requirements
 
